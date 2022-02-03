@@ -1,0 +1,19 @@
+﻿<Window x:Class="ITMO_BIM_m1_2_lab19.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ITMO_BIM_m1_2_lab19"
+        xmlns:vm="clr-namespace:ITMO_BIM_m1_2_lab19.ViewModels"
+        mc:Ignorable="d"
+        Title="WPF-19 (MVVM)" Height="150" Width="200">
+    <Window.DataContext>
+        <vm:MainWindowViewModel/>
+    </Window.DataContext>
+    <StackPanel>
+        <Label Content="Радиус:"/>
+        <TextBox Text="{Binding Path=Radius}" BorderBrush="Black" Margin="5"/>
+        <Button Content="Вычислить длину дуги" Margin="5" Command="{Binding Path=LenCalcCommand}"/>
+        <TextBox Text="{Binding Path=CircleLength}" BorderBrush="Black" Margin="5" IsReadOnly="True"/>
+    </StackPanel>
+</Window>
