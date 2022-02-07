@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace ITMO_BIM_m1_2_lab19
+namespace ITMO_BIM_m1_2
 {
     class RelayCommand : ICommand
     {

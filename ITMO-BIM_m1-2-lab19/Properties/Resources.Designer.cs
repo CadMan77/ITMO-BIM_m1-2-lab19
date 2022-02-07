@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace ITMO_BIM_m1_2_lab19.Properties
+namespace ITMO_BIM_m1_2.Properties
 {
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.

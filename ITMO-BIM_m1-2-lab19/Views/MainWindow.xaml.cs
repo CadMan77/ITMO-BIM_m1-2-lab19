@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ITMO_BIM_m1_2_lab19
+namespace ITMO_BIM_m1_2
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

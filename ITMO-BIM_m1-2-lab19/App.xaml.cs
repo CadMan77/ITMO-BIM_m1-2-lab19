@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace ITMO_BIM_m1_2_lab19
+namespace ITMO_BIM_m1_2
 {
     /// <summary>
     /// Interaction logic for App.xaml
